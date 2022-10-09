@@ -21,7 +21,7 @@ public class EventController : Controller
     /// Publish an Pizza Event
     /// </summary>
     /// <param name="e"></param>
-    [HttpPost("raisePizzaEvent")]
+    [HttpPost("OrderPizzaEvent")]
     public IActionResult RaisePizzaEvent(Pizza pizza)
     {
 
